@@ -12,22 +12,23 @@ func main() {
 	nome = "steph"
 	fmt.Println(nome)
 
-	// var idade int
-	// idade = 4
-	// fmt.Println(idade)
+	var idade int
+	idade = 4
+	fmt.Println(idade)
 
-	// var a = "steph"
-	// fmt.Println(a)
+	var a = "steph"
+	fmt.Println(a)
 
-	// var b, c int = 1, 2
-	// fmt.Println(b)
-	// fmt.Println(c)
+	var b, c int = 1, 2
+	fmt.Println(b)
+	fmt.Println(c)
 
-	// var d = true
-	// fmt.Println(d)
+	var d = true
+	fmt.Println(d)
 
-	// f := "apple"
-	// fmt.Println(f)
+	//maneira mais comum de declarar uma vareavel
+	f := "apple"
+	fmt.Println(f)
 
 	// numero := "steph"
 	// fmt.Println(numero)
