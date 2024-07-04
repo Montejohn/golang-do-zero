@@ -6,6 +6,9 @@ func main() {
 	somaDosValores := soma(42, 13)
 	fmt.Println(somaDosValores)
 
+	subtracaoDosValores := subtracao(79, 78)
+	fmt.Println(subtracaoDosValores)
+
 	nome, sobrenome := printaNomeCompleto("STEPH", "CARDOSO")
 	fmt.Println(nome)
 	fmt.Println(sobrenome)
@@ -28,4 +31,8 @@ func PrintaNome(nome string) string {
 
 func soma(x int, y int) int {
 	return x + y
+} //Construção = func nome_funçao(nome_var tipo_var, nome_var tipo var) tipo _retorno { return nome_var + nome_var}
+
+func subtracao(x int, y int) int {
+	return x - y
 }
