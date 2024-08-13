@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 
 	// Array - tamanho fixo
-	var array [2]string
+	var array [2]string // var+array+tamanho_do_array+tipo
 	array[0] = "Hello"
 	array[1] = "World"
 	fmt.Println(array[0])
@@ -20,28 +20,28 @@ func main() {
 
 	//Slices
 	//var slice []string
-	slice := make([]string, 5)
-	slice[0] = "Hello"
-	slice[1] = "World"
-	fmt.Println(slice[0], slice[1])
-	fmt.Println(slice[0])
-	fmt.Println(slice[1])
-	fmt.Println(slice[2])
-	slice[2] = "Steph"
-	fmt.Println(slice[2])
-	fmt.Println(slice)
+	//slice := make([]string, 5)
+	//slice[0] = "Hello"
+	//slice[1] = "World"
+	//fmt.Println(slice[0], slice[1])
+	//	fmt.Println(slice[0])
+	//fmt.Println(slice[1])
+	//fmt.Println(slice[2])
+	//slice[2] = "Steph"
+	//fmt.Println(slice[2])
+	//fmt.Println(slice)
 
-	fmt.Println(len(slice))
-	fmt.Println(slice[2])
-	fmt.Println(slice[3])
-	fmt.Println(slice[4])
-	fmt.Println(slice[5])
+	//fmt.Println(len(slice))
+	//fmt.Println(slice[2])
+	//	fmt.Println(slice[3])
+	//	fmt.Println(slice[4])
+	//	fmt.Println(slice[5])
 
-	numPares := []int{2, 4, 6, 8, 10, 12}
-	fmt.Println(numPares)
+	//	numPares := []int{2, 4, 6, 8, 10, 12}
+	//	fmt.Println(numPares)
 
-	numPares = append(numPares, 14, 16, 18, 20)
-	fmt.Println(numPares)
+	//	numPares = append(numPares, 14, 16, 18, 20)
+	//	fmt.Println(numPares)
 }
 
 // LISTAS
