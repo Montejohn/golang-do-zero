@@ -9,9 +9,13 @@ func main() {
 	subtracaoDosValores := subtracao(79, 78)
 	fmt.Println(subtracaoDosValores)
 
+	printaIdade := idade(2024, 1998)
+	fmt.Println(printaIdade)
+
 	nome, sobrenome := printaNomeCompleto("STEPH", "CARDOSO")
 	fmt.Println(nome)
 	fmt.Println(sobrenome)
+
 }
 
 // Função começando com letra minúscula:
@@ -35,4 +39,8 @@ func soma(x int, y int) int {
 
 func subtracao(x int, y int) int {
 	return x - y
+}
+
+func idade(anoatual int, anonasc int) int {
+	return anoatual - anonasc
 }

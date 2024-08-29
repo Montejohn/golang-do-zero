@@ -10,15 +10,22 @@ func main() {
 	// fmt.Println(idade["steph"])
 	// fmt.Println(idade["bento"])
 
-	anoNasc := map[string]int{
-		"steph": 1995,
-		"bento": 2008,
+	//anoNasc := map[string]int{
+	//	"steph": 1995,
+	//	"bento": 2008,
+	//}
+	//fmt.Println(anoNasc)
+	//fmt.Println(anoNasc["steph"])
+	//fmt.Println(anoNasc["bento"])
+	//anoNasc["golangDoZero"] = 2024
+	//fmt.Println(anoNasc)
+	anoEntradaprog := map[string]int{
+		"Jonatas": 2024,
+		"Golang":  2024,
 	}
-	fmt.Println(anoNasc)
-	fmt.Println(anoNasc["steph"])
-	fmt.Println(anoNasc["bento"])
-	anoNasc["golangDoZero"] = 2024
-	fmt.Println(anoNasc)
+	fmt.Println(anoEntradaprog)
+	fmt.Println(anoEntradaprog["Golang"])
+	fmt.Println(anoEntradaprog["Jonatas"])
 }
 
 // 2 - Maps: Heterogêneos
