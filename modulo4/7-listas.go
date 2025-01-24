@@ -1,10 +1,8 @@
 package main
 
-import "fmt"
-
 func main() {
 
-	// Array - tamanho fixo
+	// //Array - tamanho fixo
 	// var array [2]string // var+array+tamanho_do_array+tipo
 	// array[0] = "Hello"
 	// array[1] = "World"
@@ -37,11 +35,11 @@ func main() {
 	// fmt.Println(slice[4])
 	// fmt.Println(slice[5])
 
-	numPares := []int{2, 4, 6, 8, 10, 12} //criando um slice sem tamanho definido mas deve já ter valores no momento da criação
-	fmt.Println(numPares)
+	//numPares := []int{2, 4, 6, 8, 10, 12} //criando um slice sem tamanho definido mas deve já ter valores no momento da criação
+	//fmt.Println(numPares)
 
-	numPares = append(numPares, 14, 16, 18, 20) //append serve para adicionar valores ao slice
-	fmt.Println(numPares)
+	//numPares = append(numPares, 14, 16, 18, 20) //append serve para adicionar valores ao slice
+	//fmt.Println(numPares)
 }
 
 // LISTAS

@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // Loops
 // Laços de repetição
@@ -16,13 +18,13 @@ func main() {
 	// 	fmt.Println("Sum:", sum)
 	// 	fmt.Println("Indice:", i)
 	// 	sum += i
-	// 	// é a mesma coisa que: sum = sum + i
-	// 	// sum -= i -> sum = sum - i
+	// 	// 	// é a mesma coisa que: sum = sum + i
+	// 	// 	// sum -= i -> sum = sum - i
 
-	// 	// É como se ao final do loop
-	// 	// fosse adicionado 1 ao indice i
-	// 	// i++
-	// 	// i = i + 1
+	// 	// 	//  ao final do loop
+	// 	// 	// e adicionado 1 ao indice i
+	// 	// 	// i++
+	// 	// 	// i = i + 1
 	// }
 	// fmt.Println(sum)
 
